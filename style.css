@@ -11,7 +11,7 @@ a{
 /*Mise en page : flexbox*/
 .flex{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 .between{
     justify-content: space-between;
@@ -96,4 +96,46 @@ a{
 }
 .textblack{
     color: black;
+}
+.h2{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100px;  
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pt-65{
+    padding-top: 65px;
+}
+.pb-16{
+    padding-bottom: 16px;
+}
+.pl-100{
+    padding-left: 100px;
+}
+.width{
+    width: 20%;
+}
+.width-30{
+    width: 30%;
+}
+.width-25{
+    width: 25%;
+}
+img{
+    max-width: 100;
+    display: block;
+}
+.margin{
+    margin-right: 100px;
+}
+.textcenter{
+    text-align: center;
+}
+.textviolet{
+    color: #b100b1;
 }
