@@ -7,7 +7,6 @@
 }
 a{
     text-decoration: none;
-    display: inline-block;
 }
 /*Mise en page : flexbox*/
 .flex{
@@ -67,7 +66,25 @@ a{
 /*Composants*/
 .btn{
     display: inline-block;
+    padding: 14px 28px;
     background-color: black;
-    color: #fff;
-    padding: 16px 32px;
+    color: white;
+    text-align: center;
+    align-self: center;
+}
+.hero{
+    background-color: #775477;
+    width: 5000px;
+    height: 500px;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 300px;
 }
