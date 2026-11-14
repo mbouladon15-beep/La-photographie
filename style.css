@@ -51,7 +51,7 @@ a{
 .container{
     max-width: 1000px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
 /*margins et paddings*/
 .mt-16{
@@ -103,7 +103,7 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 100px;  
+    min-height: 100px; 
 }
 .pt-50{
     padding-top: 50px;
@@ -139,3 +139,4 @@ img{
 .textviolet{
     color: #b100b1;
 }
+
